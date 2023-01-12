@@ -387,8 +387,8 @@ export class HomePage {
     }
     share() {
         let image = "";
-        let app_url = "https://play.google.com/store/apps/details?id=com.jwi.app";
-        this.socialSharing.share("Hey there join me (" + this.karigar_detail.full_name + "-" + this.karigar_detail.mobile_no + ") on Carpenter मित्र app. Enter my code *" + this.karigar_detail.referral_code + "* to earn points back in your wallet!", "", image, app_url)
+        let app_url = "https://play.google.com/store/apps/details?id=com.starlaminates.app";
+        this.socialSharing.share("Hey there join me (" + this.karigar_detail.full_name + "-" + this.karigar_detail.mobile_no + ") on Star laminates app. Enter my code *" + this.karigar_detail.referral_code + "* to earn points back in your wallet!", "", image, app_url)
             .then(resp => {
 
             }).catch(err => {
